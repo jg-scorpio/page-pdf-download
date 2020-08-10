@@ -20,6 +20,8 @@ for link in soup.select("a[href$='.pdf']"):
 
 
 '''
+File Placing
+
 files = os.listdir(folder_location)
 
 for f in files:
